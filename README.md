@@ -1,16 +1,30 @@
-# React + Vite
+# 🏋️‍♂️ Sistema de Agendamento de Aula Experimental — Allp Fit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Sobre o projeto
+Aplicação web front-end desenvolvida com React e JavaScript, inspirada no ecossistema de soluções digitais da **Allp Fit**, onde atuei como estagiário de desenvolvimento.
 
-Currently, two official plugins are available:
+O projeto consiste em uma plataforma interativa de agendamento de aulas experimentais em 5 etapas, permitindo que potenciais alunos definam seus objetivos fitness, recebam recomendações personalizadas de treino, escolham a unidade mais próxima, selecionem um personal trainer e confirmem o horário da aula.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
+- **Fluxo de Agendamento Multi-step (5 etapas):** Objetivo $\rightarrow$ Unidade $\rightarrow$ Personal Trainer $\rightarrow$ Dia e Horário $\rightarrow$ Dados Pessoais.
+- **Recomendação Dinâmica de Treino:** Sugestões personalizadas de modalidades com base no objetivo e nível selecionados pelo usuário.
+- **Filtro Inteligente de Personais:** Seleção dinâmica de profissionais de acordo com a unidade e especialidade do treino.
+- **Validação Estrita de Formulário:** Tratamento completo de inputs e erros com **React Hook Form** e **Zod**.
+- **Gestão de Agendamentos:** Listagem, visualização de detalhes e cancelamento de agendamentos ativos.
+- **Persistência Local:** Salvamento e recuperação dos agendamentos diretamente no `localStorage` do navegador.
+- **Interface Responsiva & Temática:** Layout moderno e adaptável baseado no design system da Allp Fit.
 
-## React Compiler
+## 🛠️ Tecnologias utilizadas
+- **React.js** (Componentização e Gerenciamento de Estado)
+- **JavaScript (ES6+)**
+- **React Hook Form**
+- **Zod** (Validação de Schemas)
+- **CSS3**
+- **Vite**
+- **Git e GitHub**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivo
+Demonstrar domínio técnico na construção de fluxos complexos de formulários em etapas, gerenciamento avançado de estado no React, manipulação de estruturas de dados e armazenamento local no navegador.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚠️ Observação
+Este projeto é uma aplicação independente desenvolvida exclusivamente para fins de portfólio, inspirada na minha vivência prática em desenvolvimento front-end durante meu estágio. Não utiliza código proprietário ou base de dados oficial da empresa.
